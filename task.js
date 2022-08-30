@@ -1,6 +1,7 @@
 function go(playerChoice) {
   // define choices
   rps = ["rock", "paper", "scissors"];
+
   // generate a choice by the computer; a random selection
   let computerChoice = rps[Math.floor(Math.random() * rps.length)];
   console.log(`Computer choice: ${computerChoice}`);
